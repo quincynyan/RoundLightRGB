@@ -1,10 +1,10 @@
-@porperty --color-1 {
+@property --color-1 {
 	syntax: "<color>";
 	inherits: false;
 	initial-value: red;
 }
 
-@porperty --color-2 {
+@property --color-2 {
 	syntax: "<color>";
 	inherits: false;
 	initial-value: orange;
