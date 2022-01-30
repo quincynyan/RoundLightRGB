@@ -64,7 +64,7 @@ body {
 			var(--color-7),
 			var(--color-1)
 		);
-	animation: stuff linear infinite;
+	animation: stuff 2s linear infinite;
 }
 
 #app-mount {

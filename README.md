@@ -4,7 +4,7 @@
 Edge Lighting Colors - Round Colors
 
 ## Preview
-![Preview](https://www.youtube.com/watch?v=3i-ZATK37bY)
+[Preview](https://www.youtube.com/watch?v=3i-ZATK37bY)
 <br/>
 Placeholder text
 <br/>
