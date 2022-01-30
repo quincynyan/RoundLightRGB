@@ -1,0 +1,148 @@
+@porperty --color-1 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: red;
+}
+
+@porperty --color-2 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: orange;
+}
+
+@property --color-3 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: yellow;
+}
+
+@property --color-4 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: green;
+}
+
+@property --color-5 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: blue;
+}
+
+@property --color-6 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: indigo;
+}
+
+@property --color-7 {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: violet;
+}
+
+body {
+	padding: 2px;
+	background: #fc466b;
+	background: -webkit-conic-gradient(
+		var(--color-1),
+		var(--color-2),
+		var(--color-3),
+		var(--color-4),
+		var(--color-5),
+		var(--color-6),
+		var(--color-7),
+		var(--color-1)
+	);
+	background: transparent
+		conic-gradient(
+			var(--color-1),
+			var(--color-2),
+			var(--color-3),
+			var(--color-4),
+			var(--color-5),
+			var(--color-6),
+			var(--color-7),
+			var(--color-1)
+		);
+	animation: stuff linear infinite;
+}
+
+#app-mount {
+	width: calc(100% - 4px); /* wow that was easy */
+	height: calc(100% - 4px);
+}
+
+@keyframes stuff {
+	0% {
+		--color-1: red;
+		--color-2: orange;
+		--color-3: yellow;
+		--color-4: green;
+		--color-5: blue;
+		--color-6: indigo;
+		--color-7: violet;
+	}
+	14.29% {
+		--color-1: orange;
+		--color-2: yellow;
+		--color-3: green;
+		--color-4: blue;
+		--color-5: indigo;
+		--color-6: violet;
+		--color-7: red;
+	}
+	28.57% {
+		--color-1: yellow;
+		--color-2: green;
+		--color-3: blue;
+		--color-4: indigo;
+		--color-5: violet;
+		--color-6: red;
+		--color-7: orange;
+	}
+	42.86% {
+		--color-1: green;
+		--color-2: blue;
+		--color-3: indigo;
+		--color-4: violet;
+		--color-5: red;
+		--color-6: orange;
+		--color-7: yellow;
+	}
+	57.14% {
+		--color-1: blue;
+		--color-2: indigo;
+		--color-3: violet;
+		--color-4: red;
+		--color-5: orange;
+		--color-6: yellow;
+		--color-7: green;
+	}
+	71.43% {
+		--color-1: indigo;
+		--color-2: violet;
+		--color-3: red;
+		--color-4: orange;
+		--color-5: yellow;
+		--color-6: green;
+		--color-7: blue;
+	}
+	85.71% {
+		--color-1: violet;
+		--color-2: red;
+		--color-3: orange;
+		--color-4: yellow;
+		--color-5: green;
+		--color-6: blue;
+		--color-7: indigo;
+	}
+	100% {
+		--color-1: red;
+		--color-2: orange;
+		--color-3: yellow;
+		--color-4: green;
+		--color-5: blue;
+		--color-6: indigo;
+		--color-7: violet;
+	}
+}

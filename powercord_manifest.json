@@ -1,0 +1,10 @@
+{
+    "name": "Round Light RGB",
+    "description": "Edge Lighting Colors - Round Colors",
+    "version": "0.0.3",
+    "author": "DavidNyan10#8581",
+    "theme": "gradient.css",
+    "consent": [ "ext_listing" ],
+    "license": "MIT",
+    "preview": [ "https://www.youtube.com/watch?v=3i-ZATK37bY" ]
+}
