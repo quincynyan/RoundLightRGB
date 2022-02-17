@@ -1,4 +1,56 @@
+# THIS THEME HAS BEEN DEPRECATED
+### DO NOT USE THIS THEME ANYMORE
+##### IT WILL BREAK YOUR POTATO LAPTOP
+## THIS REPO IS NOW ARCHIVED
+#### The theme uses animations which discord doesnt like and will break your computer
 
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+uwu
+
+#### _hentai_
+#### _hentai_
+#### _hentai_
+#### _hentai_
+<hr>
+<hr>
+<hr>
+<hr>
+
+<br/>
+<br/>
 
 # Round Light RGB
 Edge Lighting Colors - Round Colors
